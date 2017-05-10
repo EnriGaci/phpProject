@@ -1,0 +1,105 @@
+#accountIcon
+{
+
+	float:left;
+	width:10%;
+	height:70%;
+	position:relative;
+	left:25%;
+}
+
+#browserDocumentsIcon
+{
+	float:left;
+	width:10%;
+	height:70%;
+	position: relative;
+	left:10%;
+}
+
+#browerLibrariesIcon
+{
+
+	float:left;
+	width:10%;
+	height:60%;
+	position: relative;
+	left:10%;
+
+}
+
+#librarySearchIcon
+{
+
+	float:left;
+	width:10%;
+	height:60%;
+	position: relative;
+	left:10%;
+
+}
+
+#homeIcon
+{
+
+	float:left;
+	width:20%;
+	height:60%;
+	position: relative;
+	left:10%;
+
+}
+
+#menu
+{
+
+	height:20%;
+	width:100%;
+	font-style:Ubuntu, sans-serif;
+	
+}
+
+#tableMenu
+{
+
+	width : 101.4% ;
+	height : 100% ;
+	position: relative;
+	left:-10px;
+
+}
+
+#customTD
+{
+
+	background-color:#FFFFFF;
+	height: 40px;
+	text-align: center;
+}
+
+#menuBtmDiv
+{
+
+	width:auto;
+	height:40px;
+	background-color:white;
+	color:#003366;
+	font-size:18pt;
+	padding-top: 10px;
+}
+
+#menuBtmDiv:hover
+{
+
+	width:auto;
+	height:40px;
+	color:white;
+	background-color:#003366;
+}
+
+#menuBtm
+{
+
+	text-decoration:none;
+
+}

@@ -1,0 +1,73 @@
+#container
+{
+	position: relative;
+	left:0px;
+	right: 0px;
+}
+
+#searchHelpingText
+{
+
+	font-size: 15pt;
+
+}
+
+#contentText
+{
+
+	width:100%;
+	font-size:15px; 
+	color:white ;
+	align:left;
+
+}
+
+#content
+{
+
+	background-color:#2f335e;
+	height: auto;
+	width:auto;
+	font-color:white;
+	
+	border: 1px solid white;
+	border-radius: 20px;
+	-moz-border-radius: 5px;
+    margin: 80px 130px 200px 130px;
+
+}
+
+#usernameAndPasswordText
+{
+	font-size: 12pt;
+	padding: 0px 0px 15px 0px;
+	text-align: left;
+	font-family: Ubuntu, sans-serif;
+
+}
+
+#submitBtm
+{
+	background-color:#5b41db;
+	border:1px solid white;
+	color:#FFFFFF;
+	height:30px;
+	font-face: Times New Roman;
+	font-size:14pt;
+	border-radius: 8px;
+	-moz-border-radius: 5px;
+
+}
+
+#submitBtm:hover
+{
+	background-color:#006699;
+	border:1px solid white;
+	color:#FFFFFF;
+	height:30px;
+	font-face: Times New Roman;
+	font-size:14pt;
+	border-radius: 8px;
+	-moz-border-radius: 5px;
+
+}

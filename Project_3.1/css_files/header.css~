@@ -1,0 +1,121 @@
+
+html { 
+  background: url(../Pictures/library.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#logoutBtn /* pernei ta apo katw xarakthristika to logout koumpi */
+{
+
+	height:100%;
+	float:right;
+	position:relative;
+	top:60px;
+	right:1px; 
+}
+
+#LogOutBtn /* einai gia to submit buttom xarakthristika */
+{
+
+	background-color:#003366;
+	border:1px outset white;
+	color:#FFFFFF;
+	height:30px;
+	font-face: Times New Roman;
+	font-size:14pt;
+	border-radius: 8px;
+	-moz-border-radius: 5px;
+
+}
+
+#LogOutBtn:hover /* einai gia to submit buttom xarakthristika otan to pontiki einai apo panw */
+{
+
+	background-color:#4c7093;
+	border:1px inset white;
+	color:#FFFFFF;
+	height:30px;
+	font-face: Times New Roman;
+	font-size:14pt;
+	border-radius: 8px;
+	-moz-border-radius: 5px;
+
+}
+
+#logoDiv
+{
+	width:auto; 
+	height:80px; 
+	float:left;
+	padding-bottom:5%
+}
+
+#logoImg
+{
+	position:relative;
+	left:20px;
+	top:20px;
+	width:30%;
+	height:100%
+}
+
+#returnBtn
+{
+
+	border:none;
+	color:white;
+	background-color:transparent;
+	font-size:100%;
+
+}
+
+#returnBtnImg
+{
+
+	width:20px;
+	height:20px;
+	position:inherit;
+	top:5px;
+	left:5px;
+
+}
+
+#returnDiv /* einai giato koumpi back */
+{
+	float:right;
+	position:relative;
+	top:270px;
+	right:92%;
+
+	background-color:#003366;
+	border:2px outset white;
+	color:#FFFFFF;
+	height:30px;
+	font-face: Times New Roman;
+	font-size:14pt;
+	border-radius: 8px;
+	-moz-border-radius: 5px;
+
+}
+
+#returnDiv:hover /* einai giato koumpi back  otan to koumpi eiani apo panw*/
+{
+
+	float:right;
+	position:relative;
+	top:270px;
+	right:92%;
+
+	background-color:#4c7093;
+	border:1px inset white;
+	color:#FFFFFF;
+	height:30px;
+	font-face: Times New Roman;
+	font-size:14pt;
+	border-radius: 8px;
+	-moz-border-radius: 5px;
+
+}

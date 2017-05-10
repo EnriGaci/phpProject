@@ -1,0 +1,46 @@
+#tableHeader /*class table.header orizei to styl tou table sto header*/
+{
+	border:"0";
+	font-size: 18pt;
+	padding:50px 150px 15px 200px;
+}
+
+#searchHelpingText
+{
+
+	color:white;
+	font-face:"Times New Roman";
+}
+
+#content
+{
+
+	background-color:#2f335e;
+	height: 423pt;
+	width:90%;
+	float: right;
+	font-color:white;
+
+}
+
+#usernameAndPasswordText
+{
+	font-size: 12pt;
+	padding: 0px 0px 15px 0px;
+	text-align: left;
+	font-family: Ubuntu, sans-serif;
+
+}
+
+#submitBtm
+{
+	background-color:#5b41db;
+	border:1px solid white;
+	color:#FFFFFF;
+	height:30px;
+	font-face: Times New Roman;
+	font-size:14pt;
+	border-radius: 8px;
+	-moz-border-radius: 5px;
+
+}

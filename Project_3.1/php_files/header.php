@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8"> <!-- για να καταλαβαίνει ελληνικούς χαρακτήρες ο browser -->
+
+	<link rel="stylesheet" type="text/css" href="../css_files/index.css"/>
+	<link rel="stylesheet" type="text/css" href="../css_files/header.css"/>
+
+	<title></title>
+</head>
+<body>
+
+	<div id="header">
+
+			<div id="logoDiv" >
+
+				<img src="../Pictures/ekpa.jpg" id="logoImg">
+
+			</div>
+
+			<form action="./return.php" method="post">
+				
+				<div id="returnDiv">
+
+					<img src="../Pictures/header_pictures/return.png" id="returnBtnImg">
+					<input type="button" value="Back" onclick="history.back(-1)" id="returnBtn" />
+					
+				</div>
+
+			</form>
+
+			<?php 
+
+				if ( session_status() == PHP_SESSION_NONE) {
+				    session_start();
+				}
+
+				if( isset($_SESSION['idUsers']) )
+				{
+
+			?>
+
+				<form action="./Logout.php">
+
+					<div id="logoutBtn">
+					
+						<input type="submit" name="" value="Logout" id="LogOutBtn">
+
+					</div>
+
+				</form>
+
+			<?php
+
+				}
+
+			?>
+
+		</div>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+	 	<meta charset="utf-8"> <!-- για να καταλαβαίνει ελληνικούς χαρακτήρες ο browser -->
+
+	 	<link rel="stylesheet" type="text/css" href="./css_files/index.css"/>
+
+		<title> Account </title>
+
+	</head>
+
+	<body>
+
+	<div id="container">
+
+		<?php include "header.php"; ?>
+
+		<?php include "menu.php"; ?>
+
+		<?php
+
+			if ( session_status() == PHP_SESSION_NONE) {
+			    session_start();
+			    if (!isset($_SESSION['EXPIRES']) || $_SESSION['EXPIRES'] < time() ) {
+				    session_destroy();
+				    $_SESSION = array();
+				}
+			}
+
+			if( empty($_SESSION['username']) )
+				header('Location: ./php_files/Log_in.php');
+			else
+				header( 'Location: ./php_files/Loged_in.php' );		
+
+		?>
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		</div>
+
+		<div id="footer" style="background-color:#3366FF;clear:both;text-align:center;">
+		Footer</div>
+
+
+	</div>
+
+	</body>
+</html>
